@@ -40,6 +40,6 @@ This analysis helps identify:
 - Global pandemic trends over time 📈  
 
 ---
-
-👤 **Author:** Ganesh Gupta  
-🔗 **[LinkedIn Profile](www.linkedin.com/in/ganeshgupta2005)**  
+## 👤 Author
+**Ganesh Gupta**  
+[LinkedIn Profile](https://www.linkedin.com/in/ganeshgupta2005/)
