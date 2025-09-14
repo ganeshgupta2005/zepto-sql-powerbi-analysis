@@ -41,7 +41,6 @@ The dashboard shows:
   - Total Revenue by Category (Bar + Pie)  
   - Stock Availability by Category  
 
-![Dashboard Preview](Screenshot110.png)
 
 ---
 
