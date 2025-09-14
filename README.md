@@ -1,43 +1,54 @@
-# COVID-19 SQL Analysis 🦠📊  
+# 🛒 Zepto Sales Analysis – SQL + Power BI 📊
 
-This project contains SQL-based analysis of the COVID-19 dataset to uncover insights about cases, deaths, demographics, and health indicators across countries.  
-
----
-
-## 📂 Project Files  
-- **covid_dataset.csv** → Dataset used for analysis  
-- **covid_queries.sql** → SQL queries written to analyze data  
-- **analysis_questions.txt** → List of 10 analysis questions  
+This project analyzes the **Zepto dataset** (sourced from Kaggle) to uncover insights about products, pricing, discounts, inventory, and category-level performance.  
+It uses **SQL (SSMS)** for data exploration, cleaning, and analysis, and **Power BI** for dashboard visualization.
 
 ---
 
-## 🔎 Analysis Questions  
-- Top 10 countries with the highest total cases  
-- Top 5 countries with the highest death rate  
-- Daily new cases trend per continent  
-- Case fatality ratio (deaths ÷ cases) by country  
-- Compare vaccination progress in Asia vs Europe  
-- Find the month with the highest cases in 2020 and 2021 for each country  
-- Total deaths per million for countries with median age above 40  
-- Correlation between GDP per capita and cases per million  
-- Rank countries by vaccination rate  
-- Global total cases and deaths per month  
+## 📂 Project Structure
+
+| File / Folder | Description |
+|---------------|-------------|
+| `zepto_dataset.xlsx` | Original dataset downloaded from Kaggle |
+| `zepto_queries.sql` | SQL scripts for data exploration, cleaning, and analysis |
+| `zepto_dashboard.pbix` | Power BI dashboard file |
+| `README.md` | Project documentation |
 
 ---
 
-## 🛠 Tools & Technologies  
-- **SQL** (queries & analysis)  
-- **Excel / CSV** (dataset storage)  
-- **GitHub** (project hosting)  
+## 🔧 Tools Used
+- **SQL Server Management Studio (SSMS)** → Data cleaning & analysis  
+- **Power BI** → Data visualization & dashboard building  
+- **Kaggle** → Dataset source  
 
 ---
 
-## 📌 Insights  
-This analysis helps identify:  
-- Countries most affected by COVID-19 🌍  
-- Death rate and fatality ratio patterns ⚰️  
-- Vaccination progress across continents 💉  
-- Global pandemic trends over time 📈  
+## 📊 SQL Analysis Highlights
+1. **Top 10 Best-Value Products** → Based on highest discount %
+2. **High MRP Products Out of Stock** → Find missed revenue opportunities
+3. **Category-Wise Revenue** → Calculate potential revenue per category
+4. **Price-per-Gram Calculation** → Identify cost-efficient products
+5. **Inventory Analysis** → Total weight, out-of-stock trends, stock categorization (Low, Medium, Bulk)
+
+---
+
+## 📈 Power BI Dashboard
+The dashboard shows:
+- ✅ **KPIs:** Total Revenue, Total Discounts, Avg Selling Price, Out-of-Stock %
+- 📊 **Charts:**  
+  - Avg MRP vs Selling Price by Category  
+  - Discount % vs Selling Price (Scatter Plot)  
+  - Total Revenue by Category (Bar + Pie)  
+  - Stock Availability by Category  
+
+![Dashboard Preview](Screenshot110.png)
+
+---
+
+## 📢 Insights
+- **Cooking Essentials** & **Packaged Food** generate the highest revenue.  
+- **Personal Care** & **Meats, Fish & Eggs** show higher MRP but frequent stock-outs → opportunity to optimize inventory.  
+- **Average discount %** is highest for **Ice Cream & Desserts**.  
 
 ---
 ## 👤 Author
